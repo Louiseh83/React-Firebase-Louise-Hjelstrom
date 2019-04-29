@@ -40,7 +40,7 @@ class AdminPage extends Component {
       <div>
         <h1>Admin</h1>
 
-        {loading && <div>Loading ...</div>}
+        {loading && <div>Still loading ...</div>}
 
         <UserList users={users} />
       </div>
